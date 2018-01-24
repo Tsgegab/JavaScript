@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+
+<html lang="en">
+<div class="container">
+    <h1>Enter your weight and your height </h1>
+    <input id="weight" type="text" />
+    <input id="height" type="text" />
+    <button onclick="btn()">Enter</button>
+    <p id="message"></p>
+    <script>
+        function btn() {
+
+            var weight = document.getElementById("age").value;
+            var height = document.getElementById("height").value;
+            if ((weight > 50 && height > 60 ) ) {
+                text1 = "True you wihght is 50 and  your height is over 60 inches";
+            }else {
+                text1="False you are under 50 and your height is under 60 inches ";
+            }
+            document.getElementById("message").innerHTML = text1;
+        }
+    </script>
+
+</div>
+<body>
+
+</body>
+</html>
